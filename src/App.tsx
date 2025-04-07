@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { getCityCoords, getWeatherData } from './api';
-import Weather from './Weather';
+import Weather from './components/Weather';
 
 function App() {
   const [city, setCity] = useState('Shanghai');
